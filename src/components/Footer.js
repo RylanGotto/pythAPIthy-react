@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
 
 function Copyright() {
     return (
-        <Typography variant="body2" color="testSecondaru" align="center">
+        <Typography variant="body2" color="textSecondary" align="center">
             {'Copyright @'}
             <Link color="inherit" href="https://material-ul.com/">
                 Material UI
@@ -62,7 +62,7 @@ function Footer(){
     return (
         <React.Fragment>
             <Container maxWidth="md" component="footer" className={classes.footer}>
-                <Grid container spacing={4} justify="space-evenly">
+                <Grid container spacing={4} justifyContent="space-evenly">
                     {footers.map((footer) => (
                         <Grid item xs={6} sm={3} key={footer.title}>
                             <Typography variant="h6" color="textPrimary" gutterBottom>
